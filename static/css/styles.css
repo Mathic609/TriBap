@@ -11599,6 +11599,17 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.testimonial-img{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.testimonial-text{
+padding: 0% 20%;
+}
+
+
 @media (max-width: 720px){
 
 .logo-img{
