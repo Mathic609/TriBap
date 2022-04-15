@@ -1,10 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
+{% include "header.html" %}
+<section class="content-section bg-light text-black text-center">
+    <div class="container px-4 px-lg-5">
+        <div class="text-center">
+            <div class="content-section-heading">
+            <h2 class="">ABOUT US</h2>
+        </div>
+            <h4 class="section-subheading text-muted mb-5">Three Riceballs for your Satisfaction!</h4>
+        </div>
+         <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/1.jpg"/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 style="color:#adc22d">March 2022</h4>
+                        <h4 class="subheading" style="color:#adc22d">Business Proposal Chapter 1</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae
+                        sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/2.jpg"
+                                                 alt="..."/></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 style="color:#adc22d">April 2022</h4>
+                        <h4 class="subheading" style="color:#adc22d">Business Proposal Chapter 2</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae
+                        sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Products-->
+<section class="content-section01 text-black text-center">
+    <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+            <h2 class="mb-5">CEO</h2>
+        </div>
+        <div class="row gx-4 gx-lg-5 ">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-bowl-rice"></i></span>
+                <h4><strong>Spam-Kimchi</strong></h4>
+                <p class="mb-5">A combination of spam and kimchi with seaweeds toppings</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Reviews -->
+<section class="content-section bg-dark text-white text-center" id="reviews">
+    <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+            <h2 class="mb-5" style="color:#ADC22D">Reviews</h2>
+        </div>
+    </div>
+</section>
 
-</body>
-</html>
+{% include "footer.html" %}
